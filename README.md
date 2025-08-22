@@ -1,6 +1,6 @@
-# 🔗 LostLink - MERN Project
+# 🔗 HelpingHand - MERN Project
 
-LostLink is a *MERN stack application* designed to help students and staff easily *find and report lost items* within the college campus.  
+HelpingHand is a *MERN stack application* designed to help students and staff easily *find and report lost items* within the college campus.  
 It creates a community-driven system where users can either *report lost items* or *list found items* so that the rightful owner can reclaim them.
 
 ---
@@ -17,7 +17,7 @@ It creates a community-driven system where users can either *report lost items* 
 ---
 
 ## 🛠 Tech Stack
-*Frontend:* React, Redux/Context API, Axios, TailwindCSS/Bootstrap  
+*Frontend:* React, Context API, Axios, TailwindCSS
 *Backend:* Node.js, Express.js  
 *Database:* MongoDB with Mongoose  
 *Authentication:* JWT & bcrypt.js  
@@ -88,6 +88,8 @@ JWT_SECRET=your_jwt_secret
 CLOUDINARY_CLOUD_NAME=name
 CLOUDINARY_API_KEY=
 CLOUDINARY_API_SECRET=
+VITE_FRONTEND_URL=
+
 
 
 

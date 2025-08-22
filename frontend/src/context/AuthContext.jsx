@@ -4,7 +4,7 @@ import axios from 'axios';
 export const authDataContext = createContext();
 
 const AuthContext = ({ children }) => {
-  const serverUrl = "http://localhost:5000"; // Replace with your backend server URL
+  const serverUrl = "https://helpinghand-4dse.onrender.com"; // Replace with your backend server URL
   const [userData, setUserData] = useState(null);
   const [loading, setLoading] = useState(false);
 

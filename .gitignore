@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build outputs
+build/
+dist/
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# MacOS system files
+*.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Misc
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# React Native / Expo
+.expo/
+.expo-shared/
+
+# Coverage
+coverage/
